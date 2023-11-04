@@ -58,3 +58,8 @@ dkms.conf
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ignore all files without an extension
+*
+!.*  # Don't ignore dotfiles
+!*.* # Don't ignore files with an extension
